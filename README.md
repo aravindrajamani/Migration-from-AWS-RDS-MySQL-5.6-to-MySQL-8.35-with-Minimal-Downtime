@@ -197,6 +197,11 @@ Instead of using above query, use below
 Once there is no replication lag, based on client confirmation, the IP can be cutover from AWS RDS MySQL 5.7 to AWS RDS MySQL 8.35. This is the only time during which downtime is required.
 Following continuous monitoring, the source database in AWS RDS can be decommissioned.
 
+# The Benefits 
+* The migration process reduced the downtime time required for migration from 20+ hours to 20 minutes. 
+* The client was able to switch to the new environment on the same day. As there was live replication happening from source to destination, the method was failing proof. 
+* The accelerated migration between different RDS version optimized performance. It not only optimised the cost and time for the client but also reduced its go-to-market time significantly hence proving to be better ROI.  
+
 
 
 
